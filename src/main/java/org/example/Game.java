@@ -53,25 +53,6 @@ public class Game {
 
         }
     }
-//    private static void startGameWithChange(List<Boolean> threeDoors, Map<Integer, String> tableWinAndLose) {
-//        Random random = new Random();
-//        for (int i = 1; i <= 100; i++) {
-//            int currentDoors = random.nextInt(0, 3);
-//            Collections.shuffle(threeDoors);
-//            if (!threeDoors.get(currentDoors)) {
-//                int newCurrentDoors = random.nextInt(0, 3);
-//                if (newCurrentDoors != currentDoors) {
-//                    if (threeDoors.get(newCurrentDoors)) {
-//                        tableWinAndLose.put(i, "Win");
-//                    } else {
-//                        tableWinAndLose.put(i, "Lose");
-//                    }
-//                }
-//            } else {
-//                tableWinAndLose.put(i, "Win");
-//            }
-//        }
-//    }
 
     private static int countWin(Map<Integer, String> map) {
         int count = 0;
